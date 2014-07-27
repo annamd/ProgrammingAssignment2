@@ -16,7 +16,7 @@ makeCacheMatrix <- function(x = matrix()) {
              getinv = getinv)
 }
 
-##The function cachesolve the takes as an argument object created by
+##The function cachesolve takes as an argument object created by
 ##makeCacheMatrix funtion and returns the inverse of the original matrix.
 ##Unlike solve, it first checks whether inverse has already been computed
 ##and if so, retrieves the inverse from the cache and prints the message.
